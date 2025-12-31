@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Article_Detial</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" th:href="@{/css/stylesheet.css}" />
+</head>
+<body>
+<div class="article-card" th:each="article : ${articles}">
+    <h2 class="article-title" th:text="${article.name}"></h2>
+    
+    <p class="article-date" th:text="${#dates.format(article.insertDate, 'MMM d, yyyy')}">Aug 7, 2024</p>
+    
+    <div class="article-content" th:text="${article.description}">
+    </div>
+</div>
+</body>
+</html>

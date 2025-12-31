@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Edit Article Here!</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" th:href="@{/css/stylesheet.css}" />
+</head>
+<body>
+	<div class="head-container">
+		<h1>Update Article</h1>
+	</div>
+	<div class="article_edit_form_area">
+    <form th:action="@{/admin/update/complete}" method="post">
+
+        <ul class="input_list">
+            <li>
+                <input type="text" name="name" th:value="${article.name}"/>
+            </li>
+            <li>
+            	<input type="text" name="insertDate" th:value="${article.insertDate}"/>
+            </li>
+            <li>
+                <textarea name="description" th:text="${article.description}"></textarea>
+            </li>
+
+            <li>
+                <input type="hidden" name="id" th:value="${article.id}" />
+                <input type="submit" value="Update" class="update_button"/>
+            </li>
+        </ul>
+    </form>
+</div>
+
+</body>
+</html>

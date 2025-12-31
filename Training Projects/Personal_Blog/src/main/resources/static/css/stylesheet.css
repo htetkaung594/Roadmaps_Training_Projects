@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body{
+	width:50%;
+	height:auto;
+	background-color: whitesmoke;
+}
+.head-container{
+	display:flex;
+	justify-content: space-between;
+}
+h1{
+	font-size: 36px;
+	margin-left: 10px;
+}
+.add-button{
+	position: relative;
+	right: 145px;
+	border:none;
+	background-color: transparent;
+	}
+	
+table{
+	margin-left:10px;
+	width:100%;
+}
+
+a{
+	font-size: 17px;
+	text-decoration: none;
+	color: gray;
+}
+
+.edit-article{
+	width:8%;
+	font-weight:bold;
+}
+
+.delete-article{
+	font-weight:bold;
+	text-decoration: none;
+}
+
+table td{
+	height:30px;
+}
+
+.article_edit_form_area{
+	display:inline-block;
+	width:100%;
+	height: auto;
+}
+
+li{
+	margin-bottom: 10px;
+	list-style-type: none;
+}
+
+input[type=text]{
+	width: 350px;
+	height: 20px;
+}
+
+textarea{
+	width: 350px;
+	height: 300px;
+}

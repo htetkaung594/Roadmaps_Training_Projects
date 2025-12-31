@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="UTF-8">
+<title>Personal_Blog_Admin</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" th:href="@{/css/stylesheet.css}" />
+</head>
+
+<body>
+	<div class="head-container">
+		<h1>Personal Blog</h1>
+	</div>
+
+	<table>
+		<tr th:each="article : ${articles}" th:class="articles">
+			<td><a th:href="@{/article(id=${article.id})}" th:text="${article.name}"></a></td>
+			<td th:text="${#dates.format(article.insertDate, 'MMM d, yyyy')}"></td>
+		</tr>
+	</table>
+
+</body>
+
+</html>
