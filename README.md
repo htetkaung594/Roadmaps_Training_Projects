@@ -1,7 +1,7 @@
 # Personal Blog System
 
 ## Project URL
-https://github.com/htetkaung594/Roadmaps_Training_Projects.git
+https://github.com/htetkaung594/Roadmaps_Training_Projects/tree/main/Personal_Blog
 
 ## Description
 A full-stack web application for managing personal blog posts, built with Spring Boot, Thymeleaf, and Oracle Database.
