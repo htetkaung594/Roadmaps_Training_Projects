@@ -1,1 +1,8 @@
 2025-12-31 17:48:14,353 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-12-31 17:49:52,253 [Worker-11: ワークスペースをビルド中] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: jp.co.sss.blog:Personal_Blog:0.0.1-SNAPSHOT @ /Users/kyawthanhlaing/Documents/GitHub/htetkaung594/Training Projects/Personal_Blog/pom.xml.
+2025-12-31 17:49:52,708 [Worker-11: ワークスペースをビルド中] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-12-31 17:49:52,717 [Worker-11: ワークスペースをビルド中] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources from src/main/resources to target/classes
+2025-12-31 17:49:52,723 [Worker-11: ワークスペースをビルド中] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/kyawthanhlaing/Documents/GitHub/htetkaung594/Training Projects/Personal_Blog/src/test/resources
+2025-12-31 17:49:53,044 [Worker-20: ワークスペースをビルド中] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-12-31 17:49:53,045 [Worker-20: ワークスペースをビルド中] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources from src/main/resources to target/classes
+2025-12-31 17:49:53,049 [Worker-20: ワークスペースをビルド中] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/kyawthanhlaing/Documents/GitHub/htetkaung594/Training Projects/Personal_Blog/src/test/resources
